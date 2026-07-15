@@ -1,7 +1,7 @@
  (() => {
   'use strict';
   const SUPABASE_URL ='https://rnmiwvunzlrjwfjfrofa.supabase.co';
-  const SUPABASE_ANON_KEY = 'sb_publishable_B588e3HG9hGe33uFr01apA_H1xbxTCV';
+  const SUPABASE_ANON_KEY = 'sb_secret_lTuy1WI_toG3psJPfRbuwg_hDuOzx1L';
   const isAdmin = new URLSearchParams(window.location.search).get('admin') === '1';
   const REDIRECT_ON_SUCCESS = isAdmin ? 'admin-dashboard.html' : 'dashboard.html';
 
